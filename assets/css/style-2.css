@@ -1,0 +1,248 @@
+body{
+  background-color: #212228;
+}
+.navbar-brand{
+  padding: 0px !important;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.side-navigation{
+  height: 120vh;
+  border:0px;
+  padding: 0px;
+}
+
+.side-navigation, .side-navigation .list-group, .side-navigation .list-group .list-group-item{
+  background-color: #30333c;
+  color:#fff;
+}
+
+.side-navigation .list-group .list-group-item{
+  border-left:0px; 
+  border-right:0px; 
+  border-color: #000;
+}
+
+.side-navigation .list-group .list-group-item:hover {
+  background-color: #494c55;
+}
+
+
+.side-navigation .list-group .list-group-item{
+  border-radius: 0px;
+}
+
+
+.search-nav{
+    background-color: transparent;
+    width: 300px !important;
+    border-bottom-color: #b3b3b3;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #b3b3b3;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #b3b3b3;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #b3b3b3;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.search-addons .btn{
+    border-style: none;
+    background-color: transparent;
+    border: 0px !important;
+    background-color: #3e4046;
+    color: #9c9c9c;
+}
+
+.search-addons{
+  padding: 0px;
+}
+
+.Profile-img-1{
+
+}
+
+.Profile-Btn{
+      min-width: 150px;
+}
+
+.Profile-img-1 img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+#dashboard-content{
+
+}
+
+#dashboard-content h1, h2{
+  color: #fff;
+  float: left;
+}
+
+#dashboard-content h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#dashboard-content h2{
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 25px;
+  color:#88898a;
+}
+
+#dashboard-content .divider-h{
+  float: left;
+  color: #6e7280;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+
+#dashboard-content .stats-container{
+  background-color: #282a31;
+  width: 100%;
+  height: 120px;
+}
+
+#dashboard-content .stats-container .stat-img-con{
+  background-color: #3d404a;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 12px;
+  margin-top: 35px;
+}
+
+.b-pink{
+  border-bottom: 1px solid #f13c6b; 
+}
+.b-blue{
+  border-bottom: 1px solid #4c49ac; 
+}
+
+
+#dashboard-content .stats-container .stat-title{
+  color: #dadbdd;
+  margin-top: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#dashboard-content .stats-container .stat-score{
+    color: #dadbdd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.progress-con{
+  margin-top: 20px;
+}
+.progress{
+  background-color: #282a31;
+}
+
+.progress-bar{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#78469e+0,ad1283+50,ef406c+100 */
+background: #78469e; /* Old browsers */
+background: -moz-linear-gradient(left, #78469e 0%, #ad1283 50%, #ef406c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #78469e 0%,#ad1283 50%,#ef406c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #78469e 0%,#ad1283 50%,#ef406c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78469e', endColorstr='#ef406c',GradientType=1 ); /* IE6-9 */
+}
+
+.review-container{
+  background-color: #282a31;
+  width: 100%;
+  min-height: 320px;
+  padding: 20px;
+}
+
+
+.review-container-title{
+  color: #fff;
+}
+
+
+.review-container-content{
+  background-color: #3d404a;
+  width: 100%;
+  min-height: 102px;
+  padding-top: 11px;
+  padding-left: 15px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+
+.review-container-content-img-con{
+  float: left;
+}
+.review-container-content-img-con img{
+  height: 75px;
+  width: 75px;
+  border-radius:50%;
+}
+.review-container-content-box{
+    float: left;
+    width: 80%;
+}
+
+.review-container-content-name{
+
+  color: #fff;
+  margin-left: 20px;
+}
+
+.review-container-content-txt{
+  margin-left: 20px;
+  font-style: italic;
+  color: #a3a4a4;
+}
+
+
+.pie-stat{
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 22px;
+  border: solid 3px #ef406c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .side-navigation{
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+
+}

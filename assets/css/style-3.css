@@ -1,0 +1,119 @@
+.registration-form{
+		margin-top: 260px;
+}
+
+.front-page-background{
+    min-height: 300px;
+}
+
+.content-register{
+	width: 100%;
+	min-height: 420px;
+	background-color: #f3f3f3;
+	margin-bottom: 30px;
+	color: #000;
+	float: left;
+	padding-bottom: 30px;
+}
+
+.head-content-regsiter{
+	background-color: #439eed;
+	color: #fff;
+	width: 100%;
+	height: 85px;
+	float: left;
+
+
+}
+
+.head-content-regsiter h3{
+	font-weight: bold;
+}
+
+.head-content-regsiter h4{
+	font-size: 13px;
+}
+
+.register-icon{
+	float: right;
+	width: 30px;
+	margin-top: 28px;
+}
+
+
+.content-register form{
+	margin-top: 30px;
+}
+
+
+.login-register-btn{
+	width: 100%;
+}
+
+.register-forgot{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.social-login{
+	text-align: center;
+	color: #000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.fb-btn{
+	background-color: #4962a4;
+	width: 100%;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.tw-btn{
+	background-color: #55acef;
+	width: 100%;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.g-btn{
+	background-color: #dd4b39;
+	width: 100%;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+
+
+.social-login img{
+	width: 30px;
+}
+.social-login a{
+	color: #fff;
+}
+
+footer{
+	border-top: 1px #f3f3f3 solid;
+	padding-top: 20px;
+}
+
+
+
+@media only screen and (max-width : 767px) {
+	.register-icon{
+		display: none;
+	}
+	.content-register{
+		height: 545px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+
+}
